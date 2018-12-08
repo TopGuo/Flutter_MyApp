@@ -1,5 +1,7 @@
-## 项目初始 
+# Flutter_MyApp
+Flutter_MyApp
 
-### Fllutter 入门demo
+## Flutter Demo
 
-!(blog地址：)[http://www.cnblogs.com/gdsblog]
+## blog address
+!(blog地址)[http://www.cnblogs.com/gdsblog];
