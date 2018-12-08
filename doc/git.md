@@ -37,3 +37,18 @@
 7、假如第6部失败的话再执行git pull –rebase origin master命令，然后再执行git push -u origin master即可上传成功。
 
 8、完事后假如还是不能拉代码的话再重启项目执行git branch –set-upstream master origin/master即可
+
+## ===========
+
+…or create a new repository on the command line
+echo "# Flutter_MyApp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:TopGuo/Flutter_MyApp.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin git@github.com:TopGuo/Flutter_MyApp.git
+git push -u origin master
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
