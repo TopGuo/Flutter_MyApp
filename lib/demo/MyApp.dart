@@ -6,7 +6,10 @@ import './imagedemo/LoadImage.dart';
 import './components/TextFieldText.dart';
 import './components/SingleChildScrollViewTestRoute.dart';
 import './components/ListViewTesstRoute.dart';
-import 'components/GestureDetectorTestRoute.dart';
+import './components/GestureDetectorTestRoute.dart';
+import './components/HttpTestRoute.dart';
+import './components/IoTestRoute.dart';
+import './components/WebSocketRoute.dart';
 //三方
 import 'package:fluttertoast/fluttertoast.dart';
 
@@ -24,7 +27,10 @@ class MyApp extends StatelessWidget {
         "singleChildScrollViewTestRoute": (context) =>
             SingleChildScrollViewTestRoute(),
         "ListViewTesstRoute": (context) => ListViewTesstRoute(),
-        "GestureDetectorTestRoute":(context)=>GestureDetectorTestRoute()
+        "GestureDetectorTestRoute":(context)=>GestureDetectorTestRoute(),
+        "HttpTestRoute":(context)=>HttpTestRoute(),
+        "IoTestRoute":(context)=>IoTestRoute(),
+        "WebSocketRoute":(context)=>WebSocketRoute(),
       },
       home: MyHomePage(
         title: '鸟窝',
@@ -178,27 +184,27 @@ class _MyHomePageState extends State<MyHomePage> {
             },
           ),
           FlatButton(
-            child: Text("手势识别"),
+            child: Text("文件io操作"),
             textColor: Colors.black,
             onPressed: () {
               //导航到新路由
-              Navigator.pushNamed(context, 'ListViewTesstRoute');
+              Navigator.pushNamed(context, 'IoTestRoute');
             },
           ),
           FlatButton(
-            child: Text("手势识别"),
+            child: Text("网络请求"),
             textColor: Colors.black,
             onPressed: () {
               //导航到新路由
-              Navigator.pushNamed(context, 'ListViewTesstRoute');
+              Navigator.pushNamed(context, 'HttpTestRoute');
             },
           ),
           FlatButton(
-            child: Text("手势识别"),
+            child: Text("WebSocket"),
             textColor: Colors.black,
             onPressed: () {
               //导航到新路由
-              Navigator.pushNamed(context, 'ListViewTesstRoute');
+              Navigator.pushNamed(context, 'WebSocketRoute');
             },
           ),
           FlatButton(

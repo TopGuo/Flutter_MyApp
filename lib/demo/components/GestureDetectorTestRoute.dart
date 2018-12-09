@@ -53,7 +53,7 @@ class _GestureDetectorTestRouteState extends State<GestureDetectorTestRoute> {
               Fluttertoast.showToast(
                   msg: '单击',
                   toastLength: Toast.LENGTH_SHORT,
-                  bgcolor: '#FFCC00',
+                  backgroundColor: Colors.pink,
                   gravity: ToastGravity.CENTER);
             }, //点击
             onDoubleTap: () {
@@ -61,14 +61,14 @@ class _GestureDetectorTestRouteState extends State<GestureDetectorTestRoute> {
               Fluttertoast.showToast(
                   msg: '双击',
                   toastLength: Toast.LENGTH_SHORT,
-                  bgcolor: '#FF3366');
+                  backgroundColor: Colors.green);
             }, //双击
             onLongPress: () {
               updateText("长按");
               Fluttertoast.showToast(
                   msg: '长按',
                   toastLength: Toast.LENGTH_SHORT,
-                  bgcolor: '#FF0000',
+                  backgroundColor: Colors.red,
                   gravity: ToastGravity.TOP,
                   timeInSecForIos: 1);
             }),
@@ -183,6 +183,5 @@ class _DragState extends State<_Drag> with SingleTickerProviderStateMixin {
         ],
       ),
     );
-    ;
   }
 }
