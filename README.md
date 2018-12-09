@@ -14,6 +14,17 @@ Flutter_MyApp
 
 ![图二](https://github.com/TopGuo/Flutter_MyApp/blob/master/doc/shothot/2.gif?raw=true)
 
+![图三](https://github.com/TopGuo/Flutter_MyApp/blob/master/doc/shothot/2/1.gif?raw=true)
+
+![图四](https://github.com/TopGuo/Flutter_MyApp/blob/master/doc/shothot/2/2.gif?raw=true)
+
+
+![图五](https://github.com/TopGuo/Flutter_MyApp/blob/master/doc/shothot/2/3.gif?raw=true)
+
+![图六](https://github.com/TopGuo/Flutter_MyApp/blob/master/doc/shothot/2/4.gif?raw=true)
+
+
+
 ## 有问题
 
 ```
@@ -29,8 +40,8 @@ Flutter_MyApp
 
 `真机Android上显示`
 - 
-![](https://github.com/TopGuo/Flutter_MyApp/blob/master/doc/bugimage/2.jpg?raw=true)
-- 
-![](https://github.com/TopGuo/Flutter_MyApp/blob/master/doc/bugimage/3.jpg?raw=true)
-- 
-![](https://github.com/TopGuo/Flutter_MyApp/blob/master/doc/bugimage/4.jpg?raw=true)
+还是有点问题的
+
+## Last
+`该项目历史任务完成，不再更新`
+> time:208.12.09
